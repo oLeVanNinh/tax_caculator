@@ -13,6 +13,7 @@
 # it.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+
 Dir[File.join(File.expand_path("..", __dir__), 'lib', '/*.rb')].each do |file|
   require file
 end
